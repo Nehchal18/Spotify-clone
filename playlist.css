@@ -73,6 +73,7 @@ body{
     border-radius: 50%;
     text-align: center;
     padding: 5px;
+    cursor: pointer;
 }
 .horizontal_options{
     display: flex;
@@ -85,6 +86,7 @@ body{
     border-radius: 25px;
     text-align: center;
     padding: 2px 5px;
+    cursor: pointer;
 }
 #Premium{
     background-color: white;
@@ -101,6 +103,7 @@ body{
     border-radius: 50%;
     text-align: center;
     padding: 3px;
+    cursor: pointer;
 }
 #greeting{
     color: white;
@@ -156,6 +159,7 @@ img{
     text-align: center;
     padding: 15px;
     font-size: 1.2em;
+    cursor: pointer;
 }
 
 .menu .menu_button i{
@@ -353,6 +357,7 @@ hr{
 .SongBox:hover{
     background-color: #2a2929;
     border-radius: 10px;
+    cursor: pointer;
 }
 .songs_img{
     height: 40px;
@@ -378,6 +383,14 @@ hr{
     flex-direction: column;
 }
 
+#search{
+    cursor: pointer;
+    color: #a7a7a7;
+}
+
+#search:hover{
+    color: white;
+}
 .playlist .playlist_nav{
     /* height: 10%; */
     flex: 1;
