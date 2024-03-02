@@ -13,18 +13,18 @@
   <body>
     <div class="container">
       <div class="menu">
-        <div class="menu_button"><i class="fa-solid fa-house"></i>Home</div>
-        <div class="menu_button">
+        <div class="menu_button" onclick="window.location.href = 'index.html';" id="search"><i class="fa-solid fa-house"></i>Home</div>
+        <div class="menu_button" onclick="window.location.href = 'search.html';" id="search">
           <i class="fa-solid fa-magnifying-glass"></i>Search
         </div>
       </div>
       <div class="main">
         <div class="nav_bar">
           <div class="next_prev_buttons">
-            <div class="nav_button">
+            <div class="nav_button" onclick="window.history.go(-1); return false;">
               <i class="fa-solid fa-chevron-left"></i>
             </div>
-            <div class="nav_button">
+            <div class="nav_button" onclick="window.history.go(+1); return false;">
               <i class="fa-solid fa-chevron-right"></i>
             </div>
           </div>
